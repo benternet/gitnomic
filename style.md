@@ -9,7 +9,7 @@ The **repository** is the github repository specified in the config.json when th
 1. A pull request should be rejected if it violates any of the elements in the style guide. Reviewers may cite the style guide rule they feel it breaks when declining a pull request.
 2. A pull request should not cause the application to throw an error.
 3. No pull request should change both the rules in the style guide and also functioning code.
-4. No change shall be made that causes the code in the repoistory to diverge from the code on the server.
+4. No change shall be made that causes the server to stop running the code at the head of the master branch in the repository.
 5. The logic that constitutes when a pull request will be approved must require that each player casts a vote. (105)
 6. The state of affairs that constitutes winning must not be altered from achieving n points (112)
 7. A pull request should do exactly one thing. Even if a pull request touches multiple files, the feature it is implementing should be able to be concisely described.
